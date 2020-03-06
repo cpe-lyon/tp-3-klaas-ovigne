@@ -65,7 +65,8 @@ Afin de trouver a partir de quel paquet la commande ls est installée, on fait :
 dpkg -S $(which $1)
 ```
 
-On pourra alors trouver dans quel paquet est installée n'importe quelle commande grâce a ce script. (exemple : ``origine-commade ls``
+On pourra alors trouver dans quel paquet est installée n'importe quelle commande grâce a ce script. (exemple : ``origine-commade ls``)
+
 &nbsp;
 
 ## EXERCICE 3
