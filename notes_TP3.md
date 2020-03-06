@@ -1,11 +1,12 @@
-			EXERCICE 1
-			
+# Compte-rendu TP n°3 : Gestion des paquets
+		
+## EXERCICE 1
 1. 'cat /var/log/apt/history.log' : 5 derniers paquets : mlocate, + majs en tt genres
 
-
+###
 2. apt-cache stats               572
 dpkg --get-selections | wc -l    549
-
+###
 3.
 
 4.'alias maj='apt-get upgrade''
