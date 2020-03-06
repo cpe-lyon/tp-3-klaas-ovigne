@@ -6,12 +6,18 @@
 
 ``cat /var/log/apt/history.log`` : 5 derniers paquets : mlocate, + majs en tt genres
 
-2. apt-cache stats               572
+2. Utiliser **dpkg** et **apt** pour compter le nombre de paquets installés (ne pas hésiter à consulter le manuel !).
+
+Comment explique-t-on la (petite) différence de comptage ?
+apt-cache stats               572
 dpkg --get-selections | wc -l    549
 
-3.
+3. Combien de paquets sont disponibles en téléchargement ?
 
-4.'alias maj='apt-get upgrade''
+
+4. Créer un alias “**maj**” qui met à jour le système
+
+'alias maj='apt-get upgrade''
 
 5.'sudo apt install fortunes'
 il sert a afficher des citations cocasses.
