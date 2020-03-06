@@ -4,7 +4,7 @@
 
 1. Quels sont les 5 derniers paquets installés sur votre machine ?
 
-''cat /var/log/apt/history.log'' : 5 derniers paquets : mlocate, + majs en tt genres
+``cat /var/log/apt/history.log`` : 5 derniers paquets : mlocate, + majs en tt genres
 
 2. apt-cache stats               572
 dpkg --get-selections | wc -l    549
