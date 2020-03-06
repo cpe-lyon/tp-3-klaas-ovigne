@@ -6,7 +6,7 @@
 La commande ^cat /var/log/apt/history.log^ nous permet d'obtenir les 5 derniers paquets
 
 2. 
-En utilisant ^dpkg^ et ^apt^ pour compter le nombre de paquets installés nous arrivons à 572 paquets avec la commande ^apt-cache stats^ et 549 paquets avec la commande ^dpkg --get-selections | wc -l^
+En utilisant ^^dpkg^^ et ^apt^ pour compter le nombre de paquets installés nous arrivons à 572 paquets avec la commande ^apt-cache stats^ et 549 paquets avec la commande ^dpkg --get-selections | wc -l^
 
 3.
 
