@@ -45,11 +45,11 @@ fi
 
 ## EXERCICE 4
 
-liste des pgr livrés ac coreutils ; 'dpkg -L coreutlis'
+Voici la commande permettant d'obtenir la liste des programmes livrés avec coreutils *dpkg -L coreutils*
 
-[ : alias de 'test' permet de tester une expression
+``[ ``: alias de 'test' permet de tester une expression
 
-on peut afficher ce qu'elle retourne avec echo $[ expression ]
+on peut afficher ce qu'elle retourne avec echo $``[`` expression ``]``
 
 ## EXERCICE 5
 
