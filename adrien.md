@@ -4,18 +4,18 @@
 
 1. Quels sont les 5 derniers paquets installés sur votre machine ?
 
-``cat /var/log/apt/history.log`` : 5 derniers paquets : mlocate, + majs en tt genres
 
 &nbsp;
 
 2. Utiliser **dpkg** et **apt** pour compter le nombre de paquets installés (ne pas hésiter à consulter le manuel !). Comment explique-t-on la (petite) différence de comptage ?
 
-apt-cache stats               572
-dpkg --get-selections | wc -l    549
+
 
 &nbsp;
 
 3. Combien de paquets sont disponibles en téléchargement ?
+
+On utilise : ``apt list |wc -l`` On a donc 61599 paquets disponibles en téléchargement.
 
 &nbsp;
 
