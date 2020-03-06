@@ -1,4 +1,4 @@
-			**EXERCICE 1**
+			EXERCICE 1
 1. 'cat /var/log/apt/history.log' : 5 derniers paquets : mlocate, + majs en tt genres
 
 ###
