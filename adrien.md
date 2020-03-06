@@ -6,6 +6,8 @@
 
 ``cat /var/log/apt/history.log`` : 5 derniers paquets : mlocate, + majs en tt genres
 
+&nbsp;
+
 2. Utiliser **dpkg** et **apt** pour compter le nombre de paquets installés (ne pas hésiter à consulter le manuel !).
 
 Comment explique-t-on la (petite) différence de comptage ?
