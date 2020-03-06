@@ -22,7 +22,7 @@ il y a : "fltk1.1-games - Fast Light Toolkit - example games: checkers, sudoku" 
 
 
 
-			EXERCICE 2
+## EXERCICE 2
 
 en une commande: 'dpkg -S $(which ls)'
 
@@ -32,7 +32,7 @@ en une commande: 'dpkg -S $(which ls)'
 dpkg -S $(which $1)
 '''
 
-			EXERCICE 3
+## EXERCICE 3
 **test-installed**
 
 '''bash
