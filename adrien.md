@@ -30,16 +30,16 @@ On utilise : ``alias maj='apt-get upgrade``
 
 5. A quoi sert le paquet **fortunes** ? Installez-le.
 
-``sudo apt install fortunes``
-Il sert a afficher des citations de manière aléatoire.
+Ce paquet sert a afficher des citations de manière aléatoire.
+Pour l'installer, on fait : ``sudo apt install fortunes``
 
 &nbsp;
 
 6. Quels paquets proposent de jouer au sudoku ?
 
-`apt-cache search sudoku`
+Pour afficher ces paquets, on utilise : `apt-cache search sudoku`
 
-il y a : "fltk1.1-games - Fast Light Toolkit - example games: checkers, sudoku" et bcp d'autres.
+Il y a : "fltk1.1-games - Fast Light Toolkit - example games: checkers, sudoku" et bcp d'autres.
 
 &nbsp;
 
