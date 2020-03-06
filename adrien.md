@@ -50,16 +50,19 @@ il y a : "fltk1.1-games - Fast Light Toolkit - example games: checkers, sudoku" 
 
 1. A partir de quel paquet est installée la commande ls ? Comment obtenir cette information en une seule
 commande, pour n’importe quel programme?
+
 en une commande: 'dpkg -S $(which ls)'
 
+&nbsp;
 
 Utilisez la réponse à pour écrire un script appelé origine-commande (sans l’extension
 .sh) prenant en argument le nom d’une commande, et indiquant quel paquet l’a installée.
 
 **origine-commande**
-'''bash
+```bash
 dpkg -S $(which $1)
-'''
+```
+&nbsp;
 
 			EXERCICE 3
 **test-installed**
