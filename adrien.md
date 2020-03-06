@@ -46,7 +46,7 @@ il y a : "fltk1.1-games - Fast Light Toolkit - example games: checkers, sudoku" 
 
 &nbsp;
 
-			EXERCICE 2
+## EXERCICE 2
 
 1. A partir de quel paquet est installée la commande ls ? Comment obtenir cette information en une seule
 commande, pour n’importe quel programme?
@@ -55,8 +55,7 @@ en une commande: 'dpkg -S $(which ls)'
 
 &nbsp;
 
-Utilisez la réponse à pour écrire un script appelé origine-commande (sans l’extension
-.sh) prenant en argument le nom d’une commande, et indiquant quel paquet l’a installée.
+2.Utilisez la réponse à pour écrire un script appelé origine-commande (sans l’extension.sh) prenant en argument le nom d’une commande, et indiquant quel paquet l’a installée.
 
 **origine-commande**
 ```bash
@@ -64,10 +63,10 @@ dpkg -S $(which $1)
 ```
 &nbsp;
 
-			EXERCICE 3
+## EXERCICE 3
 **test-installed**
 
-'''bash
+```bash
 nbpaquet=$(dpkg -l $1 2>/dev/null | wc -l)
 
 if [ $nbpaquet == "0" ] ; then
@@ -75,7 +74,7 @@ if [ $nbpaquet == "0" ] ; then
 else
 	echo "INSTALLÉ"
 fi
-'''
+```
 
 			EXERCICE 4
 
