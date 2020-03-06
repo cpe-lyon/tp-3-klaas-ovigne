@@ -55,7 +55,7 @@ en une commande: 'dpkg -S $(which ls)'
 
 &nbsp;
 
-2.Utilisez la réponse à pour écrire un script appelé origine-commande (sans l’extension.sh) prenant en argument le nom d’une commande, et indiquant quel paquet l’a installée.
+2. Utilisez la réponse à pour écrire un script appelé origine-commande (sans l’extension.sh) prenant en argument le nom d’une commande, et indiquant quel paquet l’a installée.
 
 **origine-commande**
 ```bash
@@ -76,7 +76,7 @@ else
 fi
 ```
 
-			EXERCICE 4
+## EXERCICE 4
 
 liste des pgr livrés ac coreutils ; 'dpkg -L coreutlis'
 
