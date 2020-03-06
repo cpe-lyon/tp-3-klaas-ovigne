@@ -1,22 +1,19 @@
-# Compte-rendu TP n°3 : Gestion des paquets
-		
-## EXERCICE 1
+			EXERCICE 1
+			
 1. 'cat /var/log/apt/history.log' : 5 derniers paquets : mlocate, + majs en tt genres
 
-###
+
 2. apt-cache stats               572
 dpkg --get-selections | wc -l    549
-###
+
 3.
 
 4.'alias maj='apt-get upgrade''
 
 5.'sudo apt install fortunes'
-il sert a afficher des citations cocasses.
+Il sert a afficher des citations amusantes en tapant la commande 'fortune'.
 
-6.'apt-cache search sudoku'
-
-il y a : "fltk1.1-games - Fast Light Toolkit - example games: checkers, sudoku" et bcp d'autres.
+6.'apt-cache search sudoku' il y a : "fltk1.1-games - Fast Light Toolkit - example games: checkers, sudoku" et beaucoup d'autres.
 
 
 
@@ -53,9 +50,8 @@ on peut afficher ce qu'elle retourne avec echo $[ expression ]
 
 			EXERCICE 5
 
-ouvrir aptitude
-chercher emacs (editors->emacs)
-'+' ou 'Ctrl + T' -> Paquet -> Installer puis 'G' puis 'G'
+On utilise la méthode suivante:
+ouvrir aptitude en entrant la commande 'sudo aptitude', puis on cherche emacs, on l'ajoute aux paquets puis on installe les paquets '+' ou 'Ctrl + T' -> Paquet -> Installer puis 'G'.
 
 			EXERCICE 6
 
