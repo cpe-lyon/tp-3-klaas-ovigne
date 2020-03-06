@@ -3,7 +3,7 @@
 ## EXERCICE 1
 
 1. Quels sont les 5 derniers paquets installés sur votre machine ?
-
+On utlise `grep " install " /var/log/dpkg.log | tail -5`
 
 &nbsp;
 
@@ -35,7 +35,7 @@ il sert a afficher des citations cocasses.
 6. Quels paquets proposent de jouer au sudoku ?
 
 
-'apt-cache search sudoku'
+`apt-cache search sudoku`
 
 il y a : "fltk1.1-games - Fast Light Toolkit - example games: checkers, sudoku" et bcp d'autres.
 
@@ -43,6 +43,7 @@ il y a : "fltk1.1-games - Fast Light Toolkit - example games: checkers, sudoku" 
 
 7. Lister les derniers paquets installés explicitement avec la commande **apt install**
 
+On utilise `apt list --manual-installed`
 
 &nbsp;
 
