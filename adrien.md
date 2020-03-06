@@ -84,13 +84,13 @@ liste des pgr livrés ac coreutils ; 'dpkg -L coreutlis'
 
 on peut afficher ce qu'elle retourne avec echo $[ expression ]
 
-			EXERCICE 5
+## EXERCICE 5
 
 ouvrir aptitude
 chercher emacs (editors->emacs)
 '+' ou 'Ctrl + T' -> Paquet -> Installer puis 'G' puis 'G'
 
-			EXERCICE 6
+## EXERCICE 6
 
 sudo add-apt-repository ppa:linuxuprising/java
 sudo apt update
