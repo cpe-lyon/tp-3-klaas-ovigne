@@ -19,7 +19,7 @@ On utilise : ``apt list |wc -l`` On a donc 61599 paquets disponibles en téléch
 
 &nbsp;
 
-4. Créer un alias “**maj**” qui met à jour le système
+4. Créer un alias "**maj**" qui met à jour le système
 
 'alias maj='apt-get upgrade''
 
@@ -48,8 +48,13 @@ il y a : "fltk1.1-games - Fast Light Toolkit - example games: checkers, sudoku" 
 
 			EXERCICE 2
 
+1. A partir de quel paquet est installée la commande ls ? Comment obtenir cette information en une seule
+commande, pour n’importe quel programme?
 en une commande: 'dpkg -S $(which ls)'
 
+
+Utilisez la réponse à pour écrire un script appelé origine-commande (sans l’extension
+.sh) prenant en argument le nom d’une commande, et indiquant quel paquet l’a installée.
 
 **origine-commande**
 '''bash
