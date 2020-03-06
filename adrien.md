@@ -9,6 +9,7 @@
 &nbsp;
 
 2. Utiliser **dpkg** et **apt** pour compter le nombre de paquets installés (ne pas hésiter à consulter le manuel !). Comment explique-t-on la (petite) différence de comptage ?
+
 apt-cache stats               572
 dpkg --get-selections | wc -l    549
 
