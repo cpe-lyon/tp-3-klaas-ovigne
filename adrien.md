@@ -78,22 +78,24 @@ fi
 
 ## EXERCICE 4
 
-liste des pgr livrés ac coreutils ; 'dpkg -L coreutlis'
+Voici la commande permettant d'obtenir la liste des programmes livrés avec coreutils *dpkg -L coreutils*
 
-[ : alias de 'test' permet de tester une expression
+``[ ``: alias de 'test' permet de tester une expression
 
-on peut afficher ce qu'elle retourne avec echo $[ expression ]
+on peut afficher ce qu'elle retourne avec echo $``[`` expression ``]``
 
 ## EXERCICE 5
 
-ouvrir aptitude
-chercher emacs (editors->emacs)
-'+' ou 'Ctrl + T' -> Paquet -> Installer puis 'G' puis 'G'
+On commence par ouvrir aptitude, ensuite on utilise 'Ctrl + T', on cherche emacs dans la liste des paquets disponibles puis on l'ajoute aux paquets à installer avec '+' ensuite on installe avec 'G' puis 'G'.
 
 ## EXERCICE 6
 
-sudo add-apt-repository ppa:linuxuprising/java
-sudo apt update
-sudo apt install oracle-java11-installer
+On installe la version Oracle de Javec grâce aux commandes suivantes
+	sudo add-apt-repository ppa:linuxuprising/java
+	sudo apt update
+	sudo apt install oracle-java11-installer
+Suite à ces commandes un nouveau fichier a été créé dans /etc/apt/sources.list.d le fichier linuxuprising-ubuntu-java-eoan.list , ce fichier contient les adresses des PPA.
 
-dans /etc/apt/sources.list.d il y a : linuxuprising-ubuntu-java-eoan.list ds ce fichier il a les adresses des PPA.
+## EXERCICE 7
+
+En ayant suivis toutes les instructions nous avons réussi à créer un nouveau paquet. Pendant cet exercice nous nous sommes rendu compte de l'importance du répertoire courant utilisé par les commandes, ainsi que de l'importanc de la syntaxe dans les fichiers décrivant les paquets (distributions par exemple).
