@@ -3,13 +3,14 @@
 ## EXERCICE 1
 
 1. Quels sont les 5 derniers paquets installés sur votre machine ?
+
 On utlise `grep " install " /var/log/dpkg.log | tail -5`
 
 &nbsp;
 
 2. Utiliser **dpkg** et **apt** pour compter le nombre de paquets installés (ne pas hésiter à consulter le manuel !). Comment explique-t-on la (petite) différence de comptage ?
 
-
+En utilisant *dpkg* et *apt* pour compter le nombre de paquets installés nous arrivons à 572 paquets avec la commande *apt-cache stats* et 549 paquets avec la commande *dpkg --get-selections | wc -l*
 
 &nbsp;
 
@@ -21,19 +22,18 @@ On utilise : ``apt list |wc -l`` On a donc 61599 paquets disponibles en téléch
 
 4. Créer un alias "**maj**" qui met à jour le système
 
-'alias maj='apt-get upgrade''
+On utilise : ``alias maj='apt-get upgrade``
 
 &nbsp;
 
 5. A quoi sert le paquet **fortunes** ? Installez-le.
 
-'sudo apt install fortunes'
-il sert a afficher des citations cocasses.
+``sudo apt install fortunes``
+Il sert a afficher des citations de manière aléatoire.
 
 &nbsp;
 
 6. Quels paquets proposent de jouer au sudoku ?
-
 
 `apt-cache search sudoku`
 
