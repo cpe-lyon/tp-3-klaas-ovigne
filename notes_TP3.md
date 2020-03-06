@@ -3,20 +3,20 @@
 ## EXERCICE 1
 
 1. Quels sont les 5 derniers paquets installés sur votre machine ?
-La commande ^cat /var/log/apt/history.log^ nous permet d'obtenir les 5 derniers paquets
+La commande *cat /var/log/apt/history.log* nous permet d'obtenir les 5 derniers paquets
 
 2. 
-En utilisant ^^dpkg^^ et ^apt^ pour compter le nombre de paquets installés nous arrivons à 572 paquets avec la commande ^apt-cache stats^ et 549 paquets avec la commande ^dpkg --get-selections | wc -l^
+En utilisant *dpkg* et *apt* pour compter le nombre de paquets installés nous arrivons à 572 paquets avec la commande *apt-cache stats* et 549 paquets avec la commande *dpkg --get-selections | wc -l*
 
 3.
 
-4. On utilise la commande ^alias maj='apt-get upgrade^.
+4. On utilise la commande *alias maj='apt-get upgrade*.
 
-5.^sudo apt install fortunes^. Ce paquet sert a afficher des citations amusantes.
+5.*sudo apt install fortunes*. Ce paquet sert a afficher des citations amusantes.
 
 6.'apt-cache search sudoku'
 
-il y a : "fltk1.1-games - Fast Light Toolkit - example games: checkers, sudoku" et bcp d'autres.
+Il y a : "fltk1.1-games - Fast Light Toolkit - example games: checkers, sudoku" et beaucoup d'autres.
 
 
 
