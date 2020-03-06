@@ -13,32 +13,29 @@
 Comment explique-t-on la (petite) différence de comptage ?
 apt-cache stats               572
 dpkg --get-selections | wc -l    549
-&nbsp;
 
+&nbsp;
 
 3. Combien de paquets sont disponibles en téléchargement ?
 
 &nbsp;
 
-
 4. Créer un alias “**maj**” qui met à jour le système
 
 'alias maj='apt-get upgrade''
-&nbsp;
 
+&nbsp;
 
 5.'sudo apt install fortunes'
 il sert a afficher des citations cocasses.
-&nbsp;
 
+&nbsp;
 
 6.'apt-cache search sudoku'
 
 il y a : "fltk1.1-games - Fast Light Toolkit - example games: checkers, sudoku" et bcp d'autres.
 
-
 &nbsp;
-
 
 			EXERCICE 2
 
