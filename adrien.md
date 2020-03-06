@@ -26,14 +26,24 @@ dpkg --get-selections | wc -l    549
 
 &nbsp;
 
-5.'sudo apt install fortunes'
+5. A quoi sert le paquet **fortunes** ? Installez-le.
+
+'sudo apt install fortunes'
 il sert a afficher des citations cocasses.
 
 &nbsp;
 
-6.'apt-cache search sudoku'
+6. Quels paquets proposent de jouer au sudoku ?
+
+
+'apt-cache search sudoku'
 
 il y a : "fltk1.1-games - Fast Light Toolkit - example games: checkers, sudoku" et bcp d'autres.
+
+&nbsp;
+
+7. Lister les derniers paquets installés explicitement avec la commande **apt install**
+
 
 &nbsp;
 
