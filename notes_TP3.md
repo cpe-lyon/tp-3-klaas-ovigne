@@ -3,18 +3,16 @@
 ## EXERCICE 1
 
 1. Quels sont les 5 derniers paquets installés sur votre machine ?
+La commande ^cat /var/log/apt/history.log^ nous permet d'obtenir les 5 derniers paquets
 
-'cat /var/log/apt/history.log' : 5 derniers paquets : mlocate, + majs en tt genres
-
-2. apt-cache stats               572
-dpkg --get-selections | wc -l    549
+2. 
+En utilisant ^dpkg^ et ^apt^ pour compter le nombre de paquets installés nous arrivons à 572 paquets avec la commande ^apt-cache stats^ et 549 paquets avec la commande ^dpkg --get-selections | wc -l^
 
 3.
 
-4.'alias maj='apt-get upgrade''
+4. On utilise la commande ^alias maj='apt-get upgrade^.
 
-5.'sudo apt install fortunes'
-il sert a afficher des citations cocasses.
+5.^sudo apt install fortunes^. Ce paquet sert a afficher des citations amusantes.
 
 6.'apt-cache search sudoku'
 
@@ -68,4 +66,3 @@ Suite à ces commandes un nouveau fichier a été créé dans /etc/apt/sources.l
 ## EXERCICE 7
 
 En ayant suivis toutes les instructions nous avons réussi à créer un nouveau paquet. Pendant cet exercice nous nous sommes rendu compte de l'importance du répertoire courant utilisé par les commandes, ainsi que de l'importanc de la syntaxe dans les fichiers décrivant les paquets (distributions par exemple).
-## Exercice 7
