@@ -22,7 +22,7 @@ Il y a : "fltk1.1-games - Fast Light Toolkit - example games: checkers, sudoku" 
 
 ## EXERCICE 2
 
-en une commande: 'dpkg -S $(which ls)'
+Pour obtenir des informations sur **ls** en une commande: *dpkg -S $(which ls)*
 
 
 **origine-commande**
