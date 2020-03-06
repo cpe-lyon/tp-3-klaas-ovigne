@@ -59,8 +59,10 @@ On commence par ouvrir aptitude, ensuite on utilise 'Ctrl + T', on cherche emacs
 
 ## EXERCICE 6
 
-sudo add-apt-repository ppa:linuxuprising/java
-sudo apt update
-sudo apt install oracle-java11-installer
+On installe la version Oracle de Javec grâce aux commandes suivantes
+	sudo add-apt-repository ppa:linuxuprising/java
+	sudo apt update
+	sudo apt install oracle-java11-installer
+Suite à ces commandes un nouveau fichier a été créé dans /etc/apt/sources.list.d le fichier linuxuprising-ubuntu-java-eoan.list , ce fichier contient les adresses des PPA.
 
-dans /etc/apt/sources.list.d il y a : linuxuprising-ubuntu-java-eoan.list ds ce fichier il a les adresses des PPA.
+## Exercice 7
