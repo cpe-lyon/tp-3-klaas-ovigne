@@ -54,7 +54,7 @@ On utilise `apt list --manual-installed`
 1. A partir de quel paquet est installée la commande ls ? Comment obtenir cette information en une seule
 commande, pour n’importe quel programme?
 
-en une commande: 'dpkg -S $(which ls)'
+Afin de trouver a partir de quel paquet la commande ls est installée, on fait : ``dpkg -S $(which ls)``
 
 &nbsp;
 
@@ -64,6 +64,8 @@ en une commande: 'dpkg -S $(which ls)'
 ```bash
 dpkg -S $(which $1)
 ```
+
+On pourra alors trouver dans quel paquet est installée n'importe quelle commande grâce a ce script. (exemple : ``origine-commade ls``
 &nbsp;
 
 ## EXERCICE 3
