@@ -65,4 +65,7 @@ On installe la version Oracle de Javec grâce aux commandes suivantes
 	sudo apt install oracle-java11-installer
 Suite à ces commandes un nouveau fichier a été créé dans /etc/apt/sources.list.d le fichier linuxuprising-ubuntu-java-eoan.list , ce fichier contient les adresses des PPA.
 
+## EXERCICE 7
+
+En ayant suivis toutes les instructions nous avons réussi à créer un nouveau paquet. Pendant cet exercice nous nous sommes rendu compte de l'importance du répertoire courant utilisé par les commandes, ainsi que de l'importanc de la syntaxe dans les fichiers décrivant les paquets (distributions par exemple).
 ## Exercice 7
