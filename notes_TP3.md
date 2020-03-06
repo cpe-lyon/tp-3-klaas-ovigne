@@ -45,7 +45,7 @@ else
 fi
 '''
 
-			EXERCICE 4
+## EXERCICE 4
 
 liste des pgr livrés ac coreutils ; 'dpkg -L coreutlis'
 
@@ -53,13 +53,11 @@ liste des pgr livrés ac coreutils ; 'dpkg -L coreutlis'
 
 on peut afficher ce qu'elle retourne avec echo $[ expression ]
 
-			EXERCICE 5
+## EXERCICE 5
 
-ouvrir aptitude
-chercher emacs (editors->emacs)
-'+' ou 'Ctrl + T' -> Paquet -> Installer puis 'G' puis 'G'
+On commence par ouvrir aptitude, ensuite on utilise 'Ctrl + T', on cherche emacs dans la liste des paquets disponibles puis on l'ajoute aux paquets à installer avec '+' ensuite on installe avec 'G' puis 'G'.
 
-			EXERCICE 6
+## EXERCICE 6
 
 sudo add-apt-repository ppa:linuxuprising/java
 sudo apt update
